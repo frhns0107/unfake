@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>UN_fake</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- js -->
+    <link rel="javascript" href="js/script.js"
+
+    <!--Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- favicon -->
+
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>GET UIN</title>
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+        <div class="container-fluid">
+
+          <!-- Nav Bar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+
+            <a class="navbar-brand" href="">UNfake</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Login/index.html">Sign up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/default.as">about us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">contacts</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+              </ul>
+
+            </div>
+          </nav>
+
+
+          <!-- Title -->
+
+          <div class="row">
+
+            <div class="col-lg-6">
+              <h1 class="big-heading" >Give the news </h1>
+              <div class="input-group">
+                <input id="demo" type="number"  class="form-control" placeholder="Pincode" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+
+                <div class="input-group">
+                  <input id="demo" type="number"  class="form-control" placeholder="date" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+
+                  <div class="input-group">
+                    <input id="demo" type="text"  class="form-control" placeholder="incidence" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+
+              </div>
+              <div class="input-group " id="button-addon4">
+                <button  onclick="myfunction()" class="btn btn-dark btn-lg download-button" type="button">Submit</button>
+              </div>
+              <a href="index.html"><button type="button" class="btn btn-dark btn-lg download-button"> check news</button> </a>
+              <a href=""<button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button></a>
+            </div>
+
+          
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <script>
+    function myfunction(){
+        var x= document.getElementById('demo');
+        // document.write(x.value);
+        console.log(x.value);
+
+    }
+   function myfuntion1(){
+     var y=0;
+    demo.value=0;
+
+
+   }
+    </script>
+    <section class="white-section" id="features">
+
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Trending</h3>
+            <p>Get easy access to top trending news</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Local News</h3>
+            <p>Give access to location,we will let you know whats happening</p>
+          </div>
+
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-newspaper fa-4x"></i>
+            <h3 class="feature-title">Mandatory News</h3>
+            <p>Know the most important news around the world</p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  </body>
+</html>
